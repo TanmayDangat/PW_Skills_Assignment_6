@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Que 3</title>
+    <style>
+      *{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        width: 60px;
+        justify-self: start;
+      }
+
+      ul{
+        list-style: none;
+      }
+
+      ul li{
+        display: inline-block;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      a{
+        text-decoration: none;
+        color: black;
+      }
+
+      .header_button {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: bold;
+        background-color: #42e636;
+        border: none;
+      }
+
+      .main {
+        grid-gap: 40px;
+      }
+
+      .discription {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        width: 650px;
+        height: 670px;
+        float: left;
+        padding-left: 45px;
+      }
+
+      .image {
+        height: 635px;
+        width: 500px;
+      }
+
+      .img_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #ffff00;
+        width: 650px;
+        justify-self: end;
+        float: right;
+      }
+
+      h1{
+        align-self: end;
+        font-size: 40px;
+      }
+
+      .main_button{
+        align-self: start;
+        justify-self: start;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        font-size: large;
+      }
+
+      .info{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-top: 700px;
+        border: 1px solid #000000;
+        height: 550px;
+        background-color: #2c1d1d;
+      }
+
+      .img1{
+        height: 400px;
+        width: 300px;
+        padding-left: 85px;
+        padding-right: 50px;
+      }
+
+      .img2{
+        height: 400px;
+        width: 300px;
+        padding-left: 90px;
+        padding-right: 50px;
+      }
+
+      .img3{
+        height: 400px;
+        width: 300px;
+        padding-left: 100px;
+        
+      }
+
+      .img1_heading{
+        color: #ffffff;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 30px;
+      }
+
+      .img1_info{
+        color: #8b5d50;
+        text-align: center;
+        font-size: 18px;
+        padding-left: 75px;
+        padding-right: 75px;
+      }
+      
+      .img2_heading{
+        color: #ffffff;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 30px;
+      }
+
+      .img2_info{
+        color: #8b5d50;
+        text-align: center;
+        font-size: 18px;
+        padding-left: 75px;
+        padding-right: 75px;
+      }
+
+      .img3_heading{
+        color: #ffffff;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 30px;
+      }
+
+      .img3_info{
+        color: #8b5d50;
+        text-align: center;
+        font-size: 18px;
+        padding-left: 75px;
+        padding-right: 75px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img
+          src="/PW Skills/Assignment_6/assets/que2.jpeg"
+          alt="logo"
+          class="logo"
+        />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="header_button">Login</button>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="discription">
+        <h1>Healthy Food</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, id
+          quasi explicabo, pariatur a eos aliquid in fuga earum doloremque,
+          facere voluptatibus laboriosam doloribus nihil repudiandae minus
+          reiciendis praesentium accusamus aut soluta fugiat harum sunt numquam!
+          Quod hic dolorum optio illum voluptatem quis omnis consectetur nemo
+          nisi adipisci libero suscipit assumenda magni iusto, fuga, itaque
+          officia cupiditate quos molestias unde provident nesciunt! Ullam
+          veritatis explicabo quibusdam sed culpa dolor illum? Illo harum
+          mollitia ullam molestias Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Provident reiciendis, praesentium in placeat velit
+          ipsum esse amet voluptate aut omnis soluta, error dolorum eveniet
+          illum ullam sunt unde, tenetur deleniti!
+        </p>
+        <button class="main_button">Read More</button>
+      </div>
+      <div class="img_container">
+        <img
+          src="/PW Skills/Assignment_6/assets/que1.jpeg"
+          alt="img"
+          class="image"
+        />
+      </div>
+    </div>
+    <div class="info">
+        <div class="img1_container">
+            <img src="/PW Skills/Assignment_6/assets/que3.1.png" alt="img1" class="img1">
+            <div class="img1_heading">No Minimum Order</div>
+            <div class="img1_info">Order in for yourself or for the group, with no restrictions on order value</div>
+        </div>
+        <div class="img2_container">
+          <img src="/PW Skills/Assignment_6/assets/Que3.2.png" alt="img2" class="img2">
+            <div class="img2_heading">Live Order Tracking</div>
+            <div class="img2_info">Know where your order is at all times, from the restaurant to your doorstep</div>
+        </div>
+        <div class="img3_container">
+          <img src="/PW Skills/Assignment_6/assets/Que3.3.png" alt="img3" class="img3">
+            <div class="img3_heading">Lightning-Fast Delivery</div>
+            <div class="img3_info">Experience Swiggy's superfast delivery for food delivered fresh and on time</div>
+        </div>
+    </div>
+  </body>
+</html>

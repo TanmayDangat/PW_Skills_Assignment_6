@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Que 1</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .main {
+        grid-gap: 40px;
+      }
+      .description {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        width: 650px;
+        float: left;
+        height: 670px;
+        padding-left: 45px;
+      }
+
+      .img_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: yellow;
+        width: 650px;
+        justify-self: end;
+        float: right;
+        height: 690px;
+      }
+
+      img {
+        width: 500px;
+        height: 690px;
+      }
+
+      h1 {
+        align-self: end;
+        font-size: 40px;
+      }
+
+      button {
+        align-self: start;
+        justify-self: start;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="description">
+        <h1>Healthy Food</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam
+          asperiores alias libero, amet saepe earum? Magni pariatur incidunt
+          expedita in tempore quod voluptatem quam perspiciatis, cum iure earum
+          quas natus facilis doloremque ducimus adipisci blanditiis repudiandae?
+          Neque, unde. Adipisci molestiae iste obcaecati quos soluta doloribus
+          expedita necessitatibus debitis eveniet. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Maxime, enim expedita illum fugiat
+          quisquam ad consectetur est facilis, porro nemo nesciunt reprehenderit
+          laudantium eum pariatur neque sed! Excepturi, delectus dicta? Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Velit dolor quos
+          vitae
+        </p>
+        <button>Read More</button>
+      </div>
+      <div class="img_container">
+        <img
+          src="/PW Skills/Assignment_6/assets/que1.jpeg"
+          alt="img"
+          class="image"
+        />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Que 6</title>
+    <style>
+      h1{
+        text-align: center;
+      }
+
+      .timetable{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        border: 3px solid #000000;
+        padding: 10px;
+        background-color: #5eaded;
+      }
+
+      div{
+        border: 1px dotted #000000;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #01b9b9;
+      }
+
+      .day{
+        background-color: #9c0f9c;
+        font-weight: bold;
+      }
+
+      .time{
+        background-color: #ec5454;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .lunch{
+        border: none;
+        background-color: #edcd17;
+        font-weight: bold;
+      }
+
+      .chem_lab{
+        grid-column: 7/9;
+        text-align: center;
+        background-color: #d4d0d0;
+      }
+
+      .bio_lab{
+        grid-column: 2/4;
+        text-align: center;
+        background-color: #d4d0d0;
+      }
+
+      .games{
+        grid-column: 7/9;
+        text-align: center;
+        background-color: #14ad14;
+        font-weight: bold;
+      }
+
+      .phy_lab{
+        grid-column: 7/9;
+        text-align: center;
+        background-color: #d4d0d0;
+      }
+
+      .let_off{
+        grid-column: 7/9;
+        text-align: center;
+        background-color: #14ad14;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="school_timetable">School Timetable</h1>
+    <div class="timetable">
+      <div class="time">TIME</div>
+      <div class="time">08:00 AM - 09:00 AM</div>
+      <div class="time">09:00 AM - 10:00 AM</div>
+      <div class="time">10:00 AM - 11:00 AM</div>
+      <div class="time">11:00 AM - 12:00 PM</div>
+      <div class="time">12:00 PM - 02:00 PM</div>
+      <div class="time">02:00 PM - 03:00 PM</div>
+      <div class="time">03:00 PM - 04:00 PM</div>
+
+      <div class="day">Monday</div>
+      <div>English</div>
+      <div>Biology</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">L</div>
+      <div class="chem_lab">Chemistry LAB</div>
+
+      <div class="day">Tuesday</div>
+      <div class="bio_lab">Biology LAB</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">U</div>
+      <div>English</div>
+      <div>Biology</div>
+
+      <div class="day">Wednesday</div>
+      <div>English</div>
+      <div>Biology</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">N</div>
+      <div class="games">Games</div>
+
+      <div class="day">Thursday</div>
+      <div class="bio_lab">Biology LAB</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">C</div>
+      <div>English</div>
+      <div>Biology</div>
+
+      <div class="day">Friday</div>
+      <div>English</div>
+      <div>Biology</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">H</div>
+      <div class="phy_lab">Physics LAB</div>
+
+      <div class="day">Saturday</div>
+      <div class="bio_lab">Biology LAB</div>
+      <div>Physics</div>
+      <div>Chemistry</div>
+      <div class="lunch">Break</div>
+      <div class="let_off">LET OFF</div>
+    </div>
+  </body>
+</html>

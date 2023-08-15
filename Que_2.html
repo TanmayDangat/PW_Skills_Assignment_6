@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Que 2</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        width: 60px;
+        justify-self: start;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      ul li {
+        display: inline-block;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #000000;
+      }
+
+      .header_button {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: bold;
+        background-color: #42e636;
+        border: none;
+      }
+
+      .main {
+        grid-gap: 40px;
+      }
+
+      .discription {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        width: 650px;
+        height: 670px;
+        float: left;
+        padding-left: 45px;
+      }
+
+      .image {
+        height: 635px;
+        width: 500px;
+      }
+
+      .img_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #ffff00;
+        width: 650px;
+        justify-self: end;
+        float: right;
+      }
+
+      h1 {
+        align-self: end;
+        font-size: 40px;
+      }
+
+      .main_button {
+        align-self: start;
+        justify-self: start;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img
+          src="/PW Skills/Assignment_6/assets/que2.jpeg"
+          alt="logo"
+          class="logo"
+        />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="header_button">Login</button>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="discription">
+        <h1>Healthy Food</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, id
+          quasi explicabo, pariatur a eos aliquid in fuga earum doloremque,
+          facere voluptatibus laboriosam doloribus nihil repudiandae minus
+          reiciendis praesentium accusamus aut soluta fugiat harum sunt numquam!
+          Quod hic dolorum optio illum voluptatem quis omnis consectetur nemo
+          nisi adipisci libero suscipit assumenda magni iusto, fuga, itaque
+          officia cupiditate quos molestias unde provident nesciunt! Ullam
+          veritatis explicabo quibusdam sed culpa dolor illum? Illo harum
+          mollitia ullam molestias Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Provident reiciendis, praesentium in placeat velit
+          ipsum esse amet voluptate aut omnis soluta, error dolorum eveniet
+          illum ullam sunt unde, tenetur deleniti!
+        </p>
+        <button class="main_button">Read More</button>
+      </div>
+      <div class="img_container">
+        <img
+          src="/PW Skills/Assignment_6/assets/que1.jpeg"
+          alt="img"
+          class="image"
+        />
+      </div>
+    </div>
+  </body>
+</html>
